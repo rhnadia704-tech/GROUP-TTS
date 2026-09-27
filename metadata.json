@@ -1,0 +1,6 @@
+{
+  "name": "Group TTS",
+  "description": "Moteur de synthèse vocale multi-voix pour dialogues interactifs avec support PDF et optimisation IA",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

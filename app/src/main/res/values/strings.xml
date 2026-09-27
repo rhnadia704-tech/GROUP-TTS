@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Group TTS</string>
+    <string name="tts_engine_name">Group TTS (Moteur Multi-Voix)</string>
+    <string name="app_description">Moteur de synthèse vocale multi-voix pour dialogues interactifs avec support PDF et IA</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="tab_studio">Studio Dialogue</string>
+    <string name="tab_voices">Configuration Voix</string>
+    <string name="tab_library">Enregistrements</string>
+    <string name="tab_settings">Paramètres &amp; Moteur</string>
+
+    <!-- Voices Screen -->
+    <string name="voices_title">Configuration des 5 Voix</string>
+    <string name="voices_subtitle">Personnalisez jusqu\'à 5 voix pour alterner dans vos scripts</string>
+    <string name="voice_name_label">Nom de la voix</string>
+    <string name="voice_system_select">Voix système TTS</string>
+    <string name="voice_pitch_label">Tonalité (Pitch)</string>
+    <string name="voice_rate_label">Vitesse de diction</string>
+    <string name="voice_test_button">Tester la voix</string>
+    <string name="voice_test_phrase">Bonjour ! Je suis %1$s, configuré pour vos dialogues.</string>
+    <string name="voice_reset">Réinitialiser les voix par défaut</string>
+
+    <!-- Studio Screen -->
+    <string name="studio_title">Éditeur de Dialogue</string>
+    <string name="script_hint">Tapez ou collez votre script multi-voix ici…</string>
+    <string name="script_help">Exemple :\nAlice : Bonjour Bob !\nBob : Salut Alice, prêt pour notre débat ?\nNarrateur : La discussion commença.</string>
+    <string name="insert_speaker_tag">Insérer :</string>
+    <string name="btn_import_pdf">Importer un PDF / Texte</string>
+    <string name="btn_sample_script">Charger un exemple</string>
+    <string name="btn_ai_optimize">Optimiser par IA</string>
+    <string name="btn_play">Écouter</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_stop">Arrêter</string>
+    <string name="btn_export_audio">Exporter en Audio (.WAV)</string>
+    <string name="generating_audio">Génération audio en cours…</string>
+    <string name="audio_exported_success">Audio exporté avec succès !</string>
+    <string name="dialogue_empty">Aucun dialogue détecté. Insérez du texte ou importez un PDF.</string>
+    <string name="reading_pdf">Lecture et extraction du PDF en cours…</string>
+
+    <!-- AI Optimization -->
+    <string name="ai_dialog_title">Optimisation IA du Script</string>
+    <string name="ai_dialog_desc">L\'IA Gemini structure votre texte brut en dialogue fluide et expressif réparti entre vos 5 voix.</string>
+    <string name="ai_optimizing">Optimisation intelligente par Gemini…</string>
+    <string name="ai_optimize_success">Script optimisé avec succès !</string>
+    <string name="ai_key_missing_notice">Clé Gemini non configurée. Un algorithme d\'optimisation heuristique local a été appliqué. Pour la pleine puissance de Gemini, configurez votre clé dans les Secrets.</string>
+
+    <!-- TTS Engine Settings -->
+    <string name="tts_engine_status_title">Statut Moteur TTS Android</string>
+    <string name="tts_engine_settings_btn">Ouvrir les Paramètres TTS du Système</string>
+    <string name="tts_engine_info">Group TTS est enregistré comme moteur TTS dans Android. Sélectionnez-le dans les paramètres système pour l\'utiliser dans d\'autres applications et lecteurs d\'écran.</string>
+    <string name="export_format_wav">Format Audio : WAV sans compression (Haute Fidélité)</string>
+</resources>
